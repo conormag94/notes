@@ -19,3 +19,12 @@ class SomeClass:
 >>> message = '''interpreter
 ... prompt'''
 ```
+
+```
+l = [1, 2, 3]
+r = l[::-1]
+```
+
+```
+$ some_command.sh
+```
