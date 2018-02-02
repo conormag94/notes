@@ -6,8 +6,16 @@ Categories can be added by putting the note in a folder, **e.g.** `git/some-note
 
 **Some sample code**
 ```
-class Foo(object):
-    def bar(self):
-        self.baz = "Hello World" * 5
-        print(self.baz)
+@requires_authorization
+def somefunc(param1='', param2=0):
+    r'''A docstring'''
+    if param1 > param2: # interesting
+        print 'Gre\'ater'
+    return (param2 - param1 + 1 + 0b10l) or None
+
+class SomeClass:
+    pass
+
+>>> message = '''interpreter
+... prompt'''
 ```
